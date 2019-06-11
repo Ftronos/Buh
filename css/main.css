@@ -1,0 +1,1150 @@
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Hairline'), local('Lato-Hairline'), url('../fonts/latohairline.woff2') format('woff2'), url('../fonts/latohairline.woff') format('woff'), url('../fonts/latohairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url('../fonts/latohairlineitalic.woff2') format('woff2'), url('../fonts/latohairlineitalic.woff') format('woff'), url('../fonts/latohairlineitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Thin'), local('Lato-Thin'), url('../fonts/latothin.woff2') format('woff2'), url('../fonts/latothin.woff') format('woff'), url('../fonts/latothin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Thin Italic'), local('Lato-ThinItalic'), url('../fonts/latothinitalic.woff2') format('woff2'), url('../fonts/latothinitalic.woff') format('woff'), url('../fonts/latothinitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Light'), local('Lato-Light'), url('../fonts/latolight.woff2') format('woff2'), url('../fonts/latolight.woff') format('woff'), url('../fonts/latolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url('../fonts/latolightitalic.woff2') format('woff2'), url('../fonts/latolightitalic.woff') format('woff'), url('../fonts/latolightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/latoregular.woff2') format('woff2'), url('../fonts/latoregular.woff') format('woff'), url('../fonts/latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Italic'), local('Lato-Italic'), url('../fonts/latoitalic.woff2') format('woff2'), url('../fonts/latoitalic.woff') format('woff'), url('../fonts/latoitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Medium'), local('Lato-Medium'), url('../fonts/latomedium.woff2') format('woff2'), url('../fonts/latomedium.woff') format('woff'), url('../fonts/latomedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Medium Italic'), local('Lato-MediumItalic'), url('../fonts/latomediumitalic.woff2') format('woff2'), url('../fonts/latomediumitalic.woff') format('woff'), url('../fonts/latomediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Semibold'), local('Lato-Semibold'), url('../fonts/latosemibold.woff2') format('woff2'), url('../fonts/latosemibold.woff') format('woff'), url('../fonts/latosemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Semibold Italic'), local('Lato-SemiboldItalic'), url('../fonts/latosemibolditalic.woff2') format('woff2'), url('../fonts/latosemibolditalic.woff') format('woff'), url('../fonts/latosemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/latobold.woff2') format('woff2'), url('../fonts/latobold.woff') format('woff'), url('../fonts/latobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url('../fonts/latobolditalic.woff2') format('woff2'), url('../fonts/latobolditalic.woff') format('woff'), url('../fonts/latobolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Heavy'), local('Lato-Heavy'), url('../fonts/latoheavy.woff2') format('woff2'), url('../fonts/latoheavy.woff') format('woff'), url('../fonts/latoheavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Heavy Italic'), local('Lato-HeavyItalic'), url('../fonts/latoheavyitalic.woff2') format('woff2'), url('../fonts/latoheavyitalic.woff') format('woff'), url('../fonts/latoheavyitalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Black'), local('Lato-Black'), url('../fonts/latoblack.woff2') format('woff2'), url('../fonts/latoblack.woff') format('woff'), url('../fonts/latoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Black Italic'), local('Lato-BlackItalic'), url('../fonts/latoblackitalic.woff2') format('woff2'), url('../fonts/latoblackitalic.woff') format('woff'), url('../fonts/latoblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Thin'), local('Raleway-Thin'), url('../fonts/ralewaythin.woff2') format('woff2'), url('../fonts/ralewaythin.woff') format('woff'), url('../fonts/ralewaythin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Thin Italic'), local('Raleway-ThinItalic'), url('../fonts/ralewaythinitalic.woff2') format('woff2'), url('../fonts/ralewaythinitalic.woff') format('woff'), url('../fonts/ralewaythinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url('../fonts/ralewayextralight.woff2') format('woff2'), url('../fonts/ralewayextralight.woff') format('woff'), url('../fonts/ralewayextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway ExtraLight Italic'), local('Raleway-ExtraLightItalic'), url('../fonts/ralewayextralightitalic.woff2') format('woff2'), url('../fonts/ralewayextralightitalic.woff') format('woff'), url('../fonts/ralewayextralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Light'), local('Raleway-Light'), url('../fonts/ralewaylight.woff2') format('woff2'), url('../fonts/ralewaylight.woff') format('woff'), url('../fonts/ralewaylight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Light Italic'), local('Raleway-LightItalic'), url('../fonts/ralewaylightitalic.woff2') format('woff2'), url('../fonts/ralewaylightitalic.woff') format('woff'), url('../fonts/ralewaylightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Regular'), local('Raleway-Regular'), url('../fonts/ralewayregular.woff2') format('woff2'), url('../fonts/ralewayregular.woff') format('woff'), url('../fonts/ralewayregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Italic'), local('Raleway-Italic'), url('../fonts/ralewayitalic.woff2') format('woff2'), url('../fonts/ralewayitalic.woff') format('woff'), url('../fonts/ralewayitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Medium'), local('Raleway-Medium'), url('../fonts/ralewaymedium.woff2') format('woff2'), url('../fonts/ralewaymedium.woff') format('woff'), url('../fonts/ralewaymedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Medium Italic'), local('Raleway-MediumItalic'), url('../fonts/ralewaymediumitalic.woff2') format('woff2'), url('../fonts/ralewaymediumitalic.woff') format('woff'), url('../fonts/ralewaymediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url('../fonts/ralewaysemibold.woff2') format('woff2'), url('../fonts/ralewaysemibold.woff') format('woff'), url('../fonts/ralewaysemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway SemiBold Italic'), local('Raleway-SemiBoldItalic'), url('../fonts/ralewaysemibolditalic.woff2') format('woff2'), url('../fonts/ralewaysemibolditalic.woff') format('woff'), url('../fonts/ralewaysemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Bold'), local('Raleway-Bold'), url('../fonts/ralewaybold.woff2') format('woff2'), url('../fonts/ralewaybold.woff') format('woff'), url('../fonts/ralewaybold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Bold Italic'), local('Raleway-BoldItalic'), url('../fonts/ralewaybolditalic.woff2') format('woff2'), url('../fonts/ralewaybolditalic.woff') format('woff'), url('../fonts/ralewaybolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../fonts/ralewayextrabold.woff2') format('woff2'), url('../fonts/ralewayextrabold.woff') format('woff'), url('../fonts/ralewayextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway ExtraBold Italic'), local('Raleway-ExtraBoldItalic'), url('../fonts/ralewayextrabolditalic.woff2') format('woff2'), url('../fonts/ralewayextrabolditalic.woff') format('woff'), url('../fonts/ralewayextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Black'), local('Raleway-Black'), url('../fonts/ralewayblack.woff2') format('woff2'), url('../fonts/ralewayblack.woff') format('woff'), url('../fonts/ralewayblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Black Italic'), local('Raleway-BlackItalic'), url('../fonts/ralewayblackitalic.woff2') format('woff2'), url('../fonts/ralewayblackitalic.woff') format('woff'), url('../fonts/ralewayblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font: 16px/19px "Lato";
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/********** TEMPLATE **********/
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 20px 60px 20px 55px;
+    background-color: #292C38;
+    border: 4px solid #CFAD68;
+    color: #fff;
+    font: 16px/19px "Lato";
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #CFAD68;
+    color: #292C38;
+}
+
+.black-back {
+    background: #292C38;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mobile {
+    display: none;
+}
+
+/********** HEADER **********/
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+.menu-row {
+    color: #fff;
+    padding: 42px 0 38px;
+}
+
+.menu-row .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-row .menu {
+    display: flex;
+}
+
+.menu-row li {
+    padding: 0 10px;
+}
+
+.menu-row .menu a {
+    color: #fff;
+}
+
+.menu-row .menu a:first-of-type {
+    padding-left: 0;
+}
+
+.menu-row .menu a:last-of-type {
+    padding-right: 0;
+}
+
+.menu-row .phone {
+    color: #fff;
+    margin-left: 57px;
+}
+
+.menu-row .back-call {
+    color: #CFAD68;
+    margin-left: 39px;
+    cursor: pointer;
+}
+
+/********** BANNER **********/
+
+.main-banner {
+    background: url("../img/account-a-bank-account-34204.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 221px 0 296px;
+    font-family: "Raleway";
+    position: relative;
+    overflow: hidden;
+    margin-top: 99px;
+}
+
+.main-banner .layer {
+    position: absolute;
+    top: 0;
+    left: 63px;
+    width: 100%;
+    height: 100%;
+    background: rgba(41, 44, 56, 0.6);
+    display: block;
+}
+
+.main-banner .container {
+    position: relative;
+}
+
+.main-banner h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+}
+
+.main-banner .banner-subtitle {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.main-banner .btn {
+    margin-top: 37px;
+}
+
+/********** SECTION WORK **********/
+
+.section.work {
+    padding: 114px 0 65px;
+}
+
+.section h2 {
+    font: bold 24px/28px "Raleway";
+    color: #292C38;
+    margin-bottom: 77px;
+}
+
+.section h2:after {
+    content: '';
+    width: 85px;
+    display: block;
+    border: 2px solid #CFAD68;
+    margin-top: 25px;
+}
+
+.section .grid-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section.work .grid-row:first-of-type {
+    margin-bottom: 102px;
+}
+
+.section .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section.work .grid-item {
+    width: calc((100% - 60px) / 4);
+}
+
+.section .grid-item .work-step-number {
+    position: relative;
+}
+
+.section .grid-item .work-step-number .square {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #CFAD68;
+}
+
+.section .grid-item .work-step-number .number {
+    display: block;
+    width: 56px;
+    height: 58px;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+    position: absolute;
+    left: -25px;
+    bottom: -20px;
+    background-color: #fff;
+}
+
+.section .grid-item .work-step-desc {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.work .text-center .btn {
+    margin-top: 57px;
+}
+
+/********** SECTION ADVANTAGES **********/
+
+.section.advantages {
+    padding: 121px 0;
+    color: #fff;
+}
+
+.section.black-back h2 {
+    color: #fff;
+}
+
+.section.advantages .grid-row:first-of-type {
+    margin-bottom: 79px;
+}
+
+.section.advantages .grid-item {
+    width: calc((100% - 380px) / 3);
+    text-align: center;
+}
+
+.section.advantages .grid-item .advantage-title {
+    color: #CFAD68;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section.advantages .grid-item .advantage-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #CFAD68;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 24px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.section.advantages .grid-item .advantage-img * {
+    max-width: 100%;
+}
+
+/********** SECTION ADVANTAGES **********/
+
+.section.services {
+    padding: 89px 0 109px;
+}
+
+.section.services h2 {
+    margin-bottom: 72px;
+}
+
+.section.services .grid-item {
+    width: calc((100% - 192px) / 5);
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #292C38;
+    justify-content: space-between;
+}
+
+.section.services .grid-item .service-title {
+    margin-bottom: 25px;
+}
+
+.section.services .grid-item .btn {
+    padding: 20px 42px;
+}
+
+.services .text-center .btn {
+    margin-top: 89px;
+}
+
+/********** SECTION CALCULATOR **********/
+
+.section.calculator h2 {
+    margin-bottom: 84px;
+}
+
+.calculator-part:nth-of-type(3) {
+    margin-top: 110px;
+}
+
+.calculator-part h3 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #292C38;
+    font-weight: normal;
+}
+
+.calculator-part:nth-of-type(2) h3,
+.calculator-part:nth-of-type(3) h3 {
+    margin-bottom: 30px;
+}
+
+.calculator-part .input-radio {
+    margin-bottom: 26px;
+}
+
+.calculator-part .input-radio:first-of-type {
+    margin-top: 44px;
+}
+
+.calculator-part .input-radio:last-of-type {
+    margin-bottom: 100px;
+}
+
+.calculator-part .input-radio input  {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+}
+
+.calculator-part .input-radio input  + label {
+    position: relative;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+}
+
+.calculator-part .input-radio input  + label:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #292C38;
+    border-radius: 50%;
+    background: #FFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.calculator-part .input-radio input  + label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #CFAD68;
+    opacity: 0;
+    transition: .2s;
+}
+
+.calculator-part .input-radio input:checked + label:after {
+    opacity: 1;
+}
+
+.documents-slider-values,
+.employee-slider-values {
+    display: flex;
+    justify-content: space-between;
+}
+
+.documents-slider-values {
+    margin-top: 35px;
+}
+
+.employee-slider-values {
+    margin-bottom: 27px;
+}
+
+.documents-slider-values div {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.documents-slider-values div span {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.employee-slider-values div {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.calculator-part .employee-input {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #CFAD68;
+    text-align: center;
+    color: #CFAD68;
+    margin-bottom: 38px;
+}
+
+.calculator-part .employee-input:focus {
+    outline: none;
+}
+
+.calculator-result {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    color: #292C38;
+    margin-top: 73px;
+    margin-bottom: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator-result span {
+    font-size: 36px;
+    line-height: 43px;
+    color: #cfad68;
+    margin-left: 43px;
+}
+
+.calculator-result object {
+    width: 27px;
+    height: 27px;
+    margin-left: 7px;
+}
+
+/********** SECTION REVIEWS **********/
+
+.section.reviews {
+    background: url("../img/charles-456504-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 55px 0 167px;
+    position: relative;
+}
+
+.reviews .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(41, 44, 56, 0.8);
+    opacity: 0.9;
+}
+
+.reviews .container {
+    position: relative;
+}
+
+.section.reviews h2 {
+    margin-bottom: 90px;
+}
+
+.reviews .slider {
+    position: relative;
+}
+
+.reviews .slider .owl-carousel {
+    margin: 0 105px;
+    width: auto;
+}
+
+.reviews .slider .item {
+    text-align: center;
+    line-height: 150%;
+}
+
+.reviews .slider .slider-nav {
+    position: absolute;
+    top: calc((100% - 31px) / 2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews .slider .slider-nav .button {
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.reviews .slider .slider-nav .prev {
+    background: url("../img/back.svg") center center no-repeat;
+}
+
+.reviews .slider .slider-nav .next {
+    background: url("../img/back.svg") center center no-repeat;
+    transform: rotate(180deg);
+}
+
+/********** FOOTER **********/
+
+footer {
+    padding: 89px 0 0;
+}
+
+footer h2 {
+    margin-bottom: 53px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #CFAD68;
+}
+
+.contacts .contacts-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts .contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts .contact-item a,
+.contacts .contact-item {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts .contact-item:first-of-type {
+    margin-bottom: 20px;
+}
+
+.contacts .contact-item object {
+    height: 20px;
+    margin-right: 12px;
+}
+
+footer .menu-row {
+    padding: 70px 0;
+}
+
+footer .menu-row .menu {
+    justify-content: flex-end;
+}
+
+/********** LAYOUT **********/
+
+.layout {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 1000;
+}
+
+.layout form {
+    width: 395px;
+    background-color: #fff;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    color: #292C38;
+}
+
+.layout form .close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    background: url('../img/cancel.svg');
+    background-size: 20px 20px;
+}
+
+.layout form h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.layout form input {
+    padding: 20px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.layout form input:first-of-type {
+    margin-top: 46px;
+}
+
+.layout form .btn {
+    width: 100%;
+}
+
+.layout form input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 18px;
+    }
+
+    .hamburger.active {
+        background: url('../img/cancel.svg');
+        height: 30px;
+        background-size: 30px 30px;
+    }
+
+    .hamburger span {
+        height: 2px;
+        display: block;
+        background-color: #CFAD68;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+    }
+
+    .hamburger.active span {
+        display: none;
+    }
+
+    .menu-row {
+        padding: 26px 0;
+    }
+
+    .menu-row .container {
+        justify-content: space-between;
+    }
+
+    .menu-row .menu-container {
+        text-align: center;
+        padding: 43px 53px 59px;
+        display: none;
+    }
+
+    .menu-row .menu-container .menu {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .menu-row .menu-container .menu li {
+        text-align: center;
+    }
+
+    .menu-row .menu-container .menu li a {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .menu-row .phone,
+    .menu-row .address {
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .main-banner {
+        padding: 141px 0 153px;
+        margin-top: 71px;
+    }
+
+    .main-banner .layer {
+        left: 6px;
+    }
+
+    .main-banner .banner-text {
+        text-align: center;
+    }
+
+    .main-banner h1 {
+        font-size: 42px;
+        line-height: 49px;
+        text-align: left;
+    }
+
+    .main-banner .banner-subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .section.work {
+        padding: 53px 0 60px;
+    }
+
+    .section h2 {
+        margin-bottom: 60px;
+    }
+
+    .section .grid-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section.work .grid-row:first-of-type,
+    .section.advantages .grid-row:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .section.work .grid-item {
+        width: 294px;
+        margin-bottom: 78px;
+    }
+
+    .work .text-center .btn {
+        margin-top: 0;
+    }
+
+    .section.advantages {
+        padding: 49px 0 0;
+    }
+
+    .section.advantages .grid-item {
+        width: 230px;
+        margin-bottom: 48px;
+    }
+
+    .section.services {
+        padding: 72px 0 74px;
+    }
+
+    .section.services h2 {
+        margin-bottom: 61px;
+    }
+
+    .section.services .grid-item {
+        width: 210px;
+        margin-bottom: 65px;
+    }
+
+    .services .text-center .btn {
+        margin-top: 0;
+    }
+
+    .section.calculator h2 {
+        margin-bottom: 53px;
+    }
+
+    .documents-slider-values div {
+        width: 22px;
+    }
+
+    .documents-slider-values div span {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 900;
+        display: block;
+    }
+
+    .calculator-result {
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 81px;
+    }
+
+    .calculator-result span {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .calculator-result object {
+        margin-top: 15px;
+    }
+
+    .section.reviews {
+        padding: 28px 0 21px;
+    }
+
+    .section.reviews h2 {
+        margin-bottom: 30px;
+    }
+
+    .reviews .slider .owl-carousel {
+        margin: 0 20px;
+    }
+
+    .reviews .slider .slider-nav .button {
+        background-size: cover !important;
+        width: 21px;
+    }
+
+    footer {
+        padding-top: 45px;
+    }
+
+    .section h2 {
+        margin-bottom: 40px;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        left: -20px;
+        width: calc(100% + 40px);
+        padding: 0 20px 39px;
+    }
+
+    .contacts .contacts-block {
+        width: 100%;
+    }
+
+    .contacts .contact-item {
+        margin-bottom: 23px;
+    }
+
+    footer .btn {
+        margin-top: 26px;
+    }
+
+    footer .menu-row {
+        padding: 49px 0 42px;
+    }
+
+    footer .menu-row .menu {
+        flex-direction: column;
+    }
+
+    footer .menu-row li {
+        text-align: center;
+    }
+
+    footer .menu-row .menu a {
+        font-size: 18px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 728px;
+    }
+
+    .header-info {
+        text-align: right;
+    }
+
+    .header-info .phone,
+    .header-info .back-call{
+        margin-left: 0;
+    }
+
+    .section .grid-row {
+        flex-wrap: wrap;
+    }
+
+    .section.advantages .grid-item {
+        width: calc((100% - 20px) / 3);
+    }
+
+    .section.services .grid-item {
+        width: calc((100% - 100px) / 3);
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+    }
+
+    .contacts .btn {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1239px) {
+    .container {
+        width: 952px;
+    }
+
+    .header-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 40px;
+    }
+
+    .header-info .phone,
+    .header-info .back-call{
+        margin-left: 0;
+    }
+
+    .section.advantages .grid-item {
+        width: calc((100% - 20px) / 3);
+    }
+}
